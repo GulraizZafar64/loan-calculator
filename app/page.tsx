@@ -1,5 +1,7 @@
-import HomePageClient from "./HomePageClient"
-import type { Metadata } from "next"
+// app/page.tsx (or pages/index.tsx if you're using the old routing)
+import HomePageClient from "./HomePageClient";
+import type { Metadata } from "next";
+import Script from "next/script"; // ✅ Import Script component
 
 export const metadata: Metadata = {
   title: "Quick Update Daily - Free Financial Calculators & Tools",
@@ -13,8 +15,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://quickupdatedaily.fun",
   },
-}
+};
 
 export default function HomePage() {
-  return <HomePageClient />
+  return (
+    <>
+      {/* ✅ Google AdSense script */}
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6025818790494312"
+        crossOrigin="anonymous"
+      />
+      <HomePageClient />
+    </>
+  );
 }
