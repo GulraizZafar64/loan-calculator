@@ -24,31 +24,6 @@ export default function CalculatorsPage() {
       </head>
 
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <Calculator className="h-6 w-6 text-primary" />
-            <span className="font-bold text-xl">Quick Update Daily</span>
-          </div>
-          <nav className="hidden md:flex items-center space-x-6">
-            <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">
-              Home
-            </Link>
-            <Link href="/calculators" className="text-sm font-medium text-primary">
-              Calculators
-            </Link>
-            <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">
-              About
-            </Link>
-            <Link href="/contact" className="text-sm font-medium hover:text-primary transition-colors">
-              Contact
-            </Link>
-          </nav>
-          <Link href="/calculators">
-            <Button className="hidden md:inline-flex">Get Started</Button>
-          </Link>
-        </div>
-      </header>
 
       {/* Hero Section */}
       <section className="py-16 px-4">
