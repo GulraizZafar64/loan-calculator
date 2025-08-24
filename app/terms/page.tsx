@@ -6,19 +6,15 @@ export const metadata: Metadata = {
   title: "Terms & Conditions - Quick Update Daily",
   description:
     "Read Quick Update Daily's terms and conditions for using our free financial calculators and tools. Important legal information for users.",
-  openGraph: {
-    title: "Terms & Conditions - Quick Update Daily",
-    description: "Read Quick Update Daily's terms and conditions for using our free financial calculators and tools.",
-    url: "https://quickupdatedaily.fun/terms",
+  alternates: {
+    canonical: "https://quickupdatedaily.fun/terms",
   },
 }
+
 
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-background">
-      <head>
-        <link rel="canonical" href="https://quickupdatedaily.fun/terms" />
-      </head>
 
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

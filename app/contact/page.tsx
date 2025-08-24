@@ -8,11 +8,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://quickupdatedaily.fun/contact",
   },
-  openGraph: {
-    title: "Contact Us - Quick Update Daily",
-    description: "Get in touch with Quick Update Daily for questions about our financial calculators or support.",
-    url: "https://quickupdatedaily.fun/contact",
-  },
 }
 
 export default function ContactPage() {

@@ -7,20 +7,15 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "About Us - Quick Update Daily",
   description:
-    "Learn about Quick Update Daily's mission to provide free, accurate financial calculators. Empowering individuals to make informed financial decisions.",
-  openGraph: {
-    title: "About Us - Quick Update Daily",
-    description: "Learn about Quick Update Daily's mission to provide free, accurate financial calculators.",
-    url: "https://quickupdatedaily.fun/about",
+    "Learn about Quick Update Daily's mission to provide free, accurate financial calculators.",
+  alternates: {
+    canonical: "https://quickupdatedaily.fun/about",
   },
 }
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background">
-      <head>
-        <link rel="canonical" href="https://quickupdatedaily.fun/about" />
-      </head>
 
       {/* Header */}
 

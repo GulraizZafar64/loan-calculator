@@ -6,21 +6,14 @@ export const metadata: Metadata = {
   title: "Privacy Policy - Quick Update Daily",
   description:
     "Read Quick Update Daily's privacy policy. Learn how we protect your data and ensure your financial information stays secure with our calculators.",
-  openGraph: {
-    title: "Privacy Policy - Quick Update Daily",
-    description:
-      "Read Quick Update Daily's privacy policy. Learn how we protect your data and ensure your financial information stays secure.",
-    url: "https://quickupdatedaily.fun/privacy",
+  alternates: {
+    canonical: "https://quickupdatedaily.fun/privacy",
   },
 }
 
 export default function PrivacyPolicyPage() {
   return (
     <div className="min-h-screen bg-background">
-      <head>
-        <link rel="canonical" href="https://quickupdatedaily.fun/privacy" />
-      </head>
-
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">

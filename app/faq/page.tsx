@@ -7,19 +7,14 @@ export const metadata: Metadata = {
   title: "FAQ - Quick Update Daily",
   description:
     "Find answers to frequently asked questions about Quick Update Daily's financial calculators. Get help with loan EMI, insurance, and mortgage calculations.",
-  openGraph: {
-    title: "FAQ - Quick Update Daily",
-    description: "Find answers to frequently asked questions about Quick Update Daily's financial calculators.",
-    url: "https://quickupdatedaily.fun/faq",
+  alternates: {
+    canonical: "https://quickupdatedaily.fun/faq",
   },
 }
 
 export default function FAQPage() {
   return (
     <div className="min-h-screen bg-background">
-      <head>
-        <link rel="canonical" href="https://quickupdatedaily.fun/faq" />
-      </head>
 
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
